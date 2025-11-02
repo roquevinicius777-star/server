@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "username": "Mestre",
+      "password": "$2b$10$3n9iM4Geu4n8r6wQvfnf5uk5m8Z0K72zLw1QeDyAekKkRtR6uMJq6",
+      "role": "admin",
+      "ficha": {
+        "identidade": {
+          "nome": "O Mestre das Sombras",
+          "origem": "Desconhecida",
+          "classe": "Arquimago",
+          "classe_academica": "Alpha",
+          "personalidade": "Frio, calculista, enigmático.",
+          "historia": "Guardião das Fichas, senhor do destino dos jogadores.",
+          "objetivo": "Manter o equilíbrio entre o caos e a sanidade."
+        },
+        "status": {
+          "pv_atual": 999,
+          "pv_total": 999,
+          "ps_atual": 999,
+          "ps_total": 999,
+          "pm_atual": 999,
+          "pm_total": 999,
+          "pe_atual": 999,
+          "pe_total": 999,
+          "circulo_magico": "7º",
+          "dominio_elemental": "Sombras",
+          "aura": "Abissal"
+        },
+        "atributos": {
+          "for": 20,
+          "des": 18,
+          "con": 20,
+          "int": 22,
+          "sab": 21,
+          "car": 17
+        },
+        "pericias": {},
+        "equipamentos": {
+          "armas": "Cajado das Profundezas",
+          "armadura": "Manto Etéreo",
+          "itens": "Cristal do Conhecimento",
+          "artefatos": "Relíquia da Escuridão",
+          "habilidades": "Controle total sobre a ficha dos jogadores"
+        }
+      }
+    },
+    {
+      "username": "Player1",
+      "password": "$2b$10$9V3qVpkcT2bQiRhLbks6Ce0u6yQvFeHZuBd9qWZ0OYtdSl.9NwBLe",
+      "role": "player",
+      "ficha": {
+        "identidade": {
+          "nome": "Caçador Errante",
+          "origem": "Vilarejo do Norte",
+          "classe": "Guerreiro",
+          "classe_academica": "Beta",
+          "personalidade": "Valente e determinado.",
+          "historia": "Um sobrevivente das guerras da névoa.",
+          "objetivo": "Vingar seu clã perdido."
+        },
+        "status": {
+          "pv_atual": 35,
+          "pv_total": 50,
+          "ps_atual": 20,
+          "ps_total": 40,
+          "pm_atual": 15,
+          "pm_total": 30,
+          "pe_atual": 10,
+          "pe_total": 20,
+          "circulo_magico": "",
+          "dominio_elemental": "Terra",
+          "aura": "Brutal"
+        },
+        "atributos": {
+          "for": 16,
+          "des": 14,
+          "con": 15,
+          "int": 10,
+          "sab": 12,
+          "car": 9
+        },
+        "pericias": {},
+        "equipamentos": {
+          "armas": "Espada longa",
+          "armadura": "Cota de malha",
+          "itens": "Poção de Cura",
+          "artefatos": "",
+          "habilidades": "Golpe Concentrado"
+        }
+      }
+    }
+  ]
+}
