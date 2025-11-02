@@ -11,7 +11,7 @@ const path = require("path");
 
 const app = express();
 app.use(express.json());
-app.use(cors());
+app.use(cors({ origin: "*" }));
 
 // Caminho para o banco local
 const dbPath = path.join(__dirname, "db.json");
@@ -178,3 +178,4 @@ app.listen(PORT, () => {
   ensureMasterExists();
   console.log(`🌑 Servidor The Obscurity rodando na porta ${PORT}`);
 });
+
